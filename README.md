@@ -6,13 +6,13 @@
 
 Simply deploy by cliking on this button:
 
-[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy?source=https://github.com/MTES-MCT/mattermost-scalingo#main)
+[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy?source=https://github.com/essentiel-os/mattermost-buildpack#main)
 
 Or create an app. You must have an add-on database `postgresql` or `mysql`.
 [Add this buildpack environment variable][1] to your Scalingo application to install the `Mattermost` server:
 
 ```shell
-BUILDPACK_URL=https://github.com/MTES-MCT/mattermost-buildpack#main
+BUILDPACK_URL=https://github.com/essentiel-os/mattermost-buildpack#main
 ```
 
 And other environment variables are set by example in a `.env.sample` file.
